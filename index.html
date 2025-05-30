@@ -1,0 +1,125 @@
+<!-- HTML version 5 -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- premier enfant de la balise HTML info sur mapage -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- les deux balises visible sur ma page : tiltle, link rel="shortcut icon" -->
+    <title>WS-HTML</title>
+    <link
+      rel="shortcut icon"
+      href="https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/256/MetroUI-Apps-HTML-5-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <!-- le second enfant de la balse HTML : visible sur le navigateur -->
+  <body>
+    <header>
+      <nav>
+        <!-- logo -->
+        <img src="./assets/images/pc.jpg" alt="pc_img" />
+        <!-- menu de la barre de nav -->
+        <ul>
+          <li>
+            <a href="https://gomycode.com/tn/fr/" target="_blank"> Home</a>
+          </li>
+          <li><a href="#service" target="_blank"> Services</a></li>
+          <li><a href="#" target="_blank"> Produits</a></li>
+          <li><a href="#contact" target="_blank"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- image -->
+      <img
+        src="https://images.unsplash.com/photo-1748188574113-df1ff7876529?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+        alt="peinture"
+        width="300px"
+        height="400px"
+      />
+
+      <!-- titre -->
+      <section>
+        <h1>Titre de type h1</h1>
+        <h2>Titre de type h1</h2>
+        <h3>Titre de type h1</h3>
+        <h4>Titre de type h1</h4>
+        <h5>Titre de type h1</h5>
+        <h6>Titre de type h1</h6>
+      </section>
+      <!-- paragraph -->
+      <section id="service">
+        <p>
+          Lorem ipsum dolor sit <b>amet</b> consectetur adipisicing elit.
+          
+          
+          
+          
+          Magnam
+          totam tempora est culpa. Dolorem itaque fugit ut vitae facere in,
+          <i>ipsum totam quis
+            
+            
+            repellat</i>ipsum totam quis repellat, odio ab
+          consequatur id error? Ut?
+        </p>
+      </section>
+
+      <table border="1">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+      <!-- video -->
+      <video width="500" height="240" controls>
+        <source src="./assets/videoplayback.mp4" type="video/mp4" />
+
+        Your browser does not support the video tag.
+      </video>
+      <!-- audio -->
+      <audio controls>
+        <source
+          src="./assets/Einaudi_Experience_violin_cover_short.mp3"
+          type="audio/mp3"
+        />
+        Your browser does not support the audio tag.
+      </audio>
+      <!-- formulaire -->
+      <form>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" placeholder="Nom"/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email@email.com"/>
+        <label for="commentaire ">Commentaire</label>
+        <textarea id="commentaire" cols="30" rows="10"></textarea>
+        <input type="button" value="OK">
+        <button>Bouton</button>
+      </form>
+    </main>
+
+    <footer id="contact">
+      &copy; Crater 2025 
+      <a href="mailto:samkallel@hotmail.fr">samkallel@hotmail.fr</a>
+    </footer>
+  </body>
+</html>
